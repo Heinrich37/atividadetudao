@@ -45,22 +45,38 @@
 #=============================================================================================
 
 # Crie uma função que receba um número e retorne True se ele for primo.
-def num():
-    import math
-    numero = int(input("Digite um numero: "))
-    raiz = math.sqrt(numero)
-    raiz = numero**0.5
-    
-    if numero % raiz:
-        print("O numero é primo")
-    else:
-        print("O numero nao é primo")
-num()
+# def num():
+#     import math
+#     numero = int(input("Digite um numero: "))
+#     raiz = math.sqrt(numero)
+#     raiz = numero**0.5
+# 
+#     if numero % raiz:
+#         print("O numero é primo")
+#     else:
+#         print("O numero nao é primo")
+# num()
 
 
 # Crie uma função que inverta uma string.
+# def stri(string):
+#     return string[::-1]
+# string = input("Informe seu nome: ")
+# inverida = stri(string)
+# print(f"A palavra invertida é {inverida}")
 
 # Crie uma função que receba uma lista de nomes e retorne apenas os nomes com mais de 5 letras.
+def nome(a):
+    if len(a) < 5:
+        print(a)
+    else:
+        print("O nome contem 5 ou mais letras")
+
+
+nomes = input("Informe o nome: ")
+nome(nomes)
+
+    
 
 # Escreva uma função que conte quantas vogais há em uma string.
 
