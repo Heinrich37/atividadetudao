@@ -79,6 +79,9 @@ nome(nomes)
     
 
 # Escreva uma função que conte quantas vogais há em uma string.
+def escreve(b):
+    if b == "a" or b == "e" or b == "i" or b == "o" or b == "u":
+        
 
 # Crie uma função que receba um número e retorne uma lista com todos os divisores dele.
 
